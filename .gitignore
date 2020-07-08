@@ -1,10 +1,6 @@
-# Executables
 *
 !/**/
 !*.*
-
-# Debug symbols
 *.dSYM
-
-# Visual Studio Code
 .vscode/
+test.cpp
