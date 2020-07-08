@@ -1,2 +1,3 @@
 # CppPrimer
-Solutions to some exercises in C++ Primer.
+
+My solutions to some exercises in C++ Primer.
