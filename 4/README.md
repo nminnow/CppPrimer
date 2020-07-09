@@ -78,7 +78,7 @@
         However, `iter` is an iterator and does not have such a member.
 
     (d) Legal. Fetches the `empty()` member function from the resulting object
-        of referencing `iter`.
+        from dereferencing `iter`.
     
     (e) Illegal. A `vector<string>` cannot be incremented like that.
 
