@@ -11,20 +11,20 @@
 
 4. (a) Illegal syntax. Possible fix:
 
-       ```C++
-       string::iterator iter = s.begin();
-       while (iter != s.end()) { /* ... */ }
-       ```
+   ```C++
+   string::iterator iter = s.begin();
+   while (iter != s.end()) { /* ... */ }
+   ```
 
    (b) The condition of the `if` statement is illegal because it no longer have
        access to `status`. Possible fix is to define `status` before the while
        loop:
 
-       ```C++
-       bool status;
-       while (bool = find(word)){ /* ... */ }
-       if (!status) { /* ... */ }
-       ```
+   ```C++
+   bool status;
+   while (bool = find(word)){ /* ... */ }
+   if (!status) { /* ... */ }
+   ```
 
 5. …
 
